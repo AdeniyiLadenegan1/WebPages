@@ -1,0 +1,197 @@
+
+body {
+
+    background: #f3f39b;
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background: linear-gradient(to top, #8fc1d8, #6dc761 );
+    background: contain;
+    background-position: 0 -270px;
+    border-bottom: 2px solid #000;
+    color: #183029;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-shadow: 0 0 3px #445759;
+}
+
+#logo {
+    position: absolute;
+    z-index: 5;
+    left: 8%;
+    top: 30px;
+}
+
+nav{
+ width: 100%;
+ height: 50px;
+ padding-top: 5px;
+ font-family: 'Montserrat', sans-serif;
+ text-align: center; 
+ background: rgb(16, 77, 77);
+ border-bottom: 2px solid #000;
+}
+
+a {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #ccc;
+    margin: 0 13px;
+    text-decoration: none;  
+}
+
+a:hover {
+    color: #0d9b2b;
+}
+main{
+    width: calc(100% - 10px);
+    height: 1000px;
+    background: #fff; 
+    text-align: center; 
+    padding: 5px; 
+    font-size: .8em;
+    background: contain;
+}
+
+.backgroundImage {
+        width: 80%;
+        height: 550px;    
+        margin: 10px 5%;
+        padding: 10px;
+        padding-top: 5px;
+        z-index: 5;
+        background: url(../assets/images/mainBkg.jpg);
+}
+#backgroundImage {
+    height: 580px;
+    padding-top: 20px;
+    background: url(../assets/images/bkgimage.jpg);
+}
+
+#aboutPageBkg{
+    height: 90%;    
+    padding-top: 20px;
+    background: url(../assets/images/aboutpic.jpg);
+}
+
+#projectPageBkg {
+    background: url(../assets/images/projBkg.jpg);
+    height: 95%;
+    width: 100%;
+    padding-top: 20px;
+}
+#contactPageBkg {
+    background: url(../assets/images/contactpic.jpg);
+    height: 95%;
+    padding-top: 20px;  
+}
+#teamPageBkg {
+    background: url(../assets/images/teampic.jpg);
+    height: 90%;
+    color:#0f0e0f;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;    
+       
+}
+    #leftMain {
+        width: 45%;
+        height: 570px;
+        background: #786a80;
+        float: left;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 3px;
+        color: #ccf;
+        background: linear-gradient(to top, #55b9d8, rgb(67, 83, 36));         
+        text-shadow: 0 0 3px #445749;
+        border-radius: 5px;
+    }
+        
+    .productImage {
+        width: 200px;
+        height: 240px; 
+        padding: 3px;
+        border-radius: 50px;
+    }
+   
+    #rightMain {
+        width: 45%;
+        height: 570px;
+        background: #786a80;
+        float: right;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 3px;
+        color: #ccf;
+        background: linear-gradient(to top, #5c485e, rgb(66, 38, 22));         
+        text-shadow: 0 0 3px #445749;
+        border-radius: 5px;
+
+    }
+    
+    #bottomMain {
+        width: 90%;
+        height: 65%;
+        float:left;
+        font-size: 1.4em;
+        padding-right: 100px;
+        background-position: 0 -270px;
+        color: #ccf;
+        background: linear-gradient(to top, #1d5e3a, #5484df);         
+        text-shadow: 0 0 3px #445749;
+        border-radius: 5px;
+        margin-top: 50;
+        border-bottom: 2px solid #000;
+
+    }
+
+
+
+     #slider {
+        width: 400px;
+        height: 550px;
+        margin: 50px auto;
+        overflow: hidden;
+        border-radius: 16px;
+        border: 4px solid #fff;
+    }
+    
+    
+    
+    #sliderImages {
+        width: 4000px;
+        height: 550px;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        left: 0;
+    }
+        #sliderImages > img {
+            float: left;
+        
+        }
+    
+    footer{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background: #4d4343;
+        font-weight: 400;
+        color: rgb(97, 5, 5);
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .greenText {
+        color: #20be12;
+    }
+    
+    
+    
